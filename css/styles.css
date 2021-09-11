@@ -112,6 +112,11 @@ color: #8ebf42;
 color: #800000;
 }
 
+.icons{
+  height: 40px;
+  width: 40px;
+}
+
 .BUTTON_MON {
  background: #66BFBF;
  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);

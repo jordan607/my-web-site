@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: white;
+  /* background-color: black;
+  color: white; */
   margin: 0;
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -13,14 +13,14 @@ border-width: 5px;
 width: 7%;
 }
 
-.top-container{
+/* .top-container{
 position: relative;
-}
+} */
 .middle-container{
 position: relative;
 }
 .bottom-container{
-background-color: #363734;
+background-color: #1e3603;
 padding: 50px;
 }
 
@@ -159,5 +159,24 @@ color: #800000;
 
 .trademark{
 padding-top: 10px;
-font-size: 70%;
+font-size: 90%;
+}
+
+.mode {
+  float:right;
+  font-family: 'Georgia';
+  padding: 25px;
+}
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+.dark{
+  background-color: black;
+  color: #e6e6e6;
 }

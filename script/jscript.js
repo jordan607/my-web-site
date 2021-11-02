@@ -1,9 +1,11 @@
-$( ".change" ).on("click", function() {
-			if( $( "body" ).hasClass( "dark" )) {
-				$( "body" ).removeClass( "dark" );
-				$( ".change" ).text( "OFF" );
-			} else {
-				$( "body" ).addClass( "dark" );
-				$( ".change" ).text( "ON" );
-			}
-		});
+$(document).ready(function(){
+    $("#tooglenight").change(function() {
+        if(this.checked) {
+            $("#bd").addClass("night");
+            $("i").css("color", "black");
+        }else{
+            $("#bd").removeClass("night");
+            $("i").css("color", "white");
+        }
+    });
+});
